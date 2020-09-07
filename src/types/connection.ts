@@ -1,4 +1,4 @@
-import { ObjectType, Field, Int, ArgsType } from '@nestjs/graphql';
+import { ObjectType, Field, Int, ArgsType } from '@mirco312312/nest-fgql';
 import { Min } from 'class-validator';
 
 import { ClassType } from '../utilities';

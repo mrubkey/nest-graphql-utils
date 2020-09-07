@@ -1,4 +1,4 @@
-import { Directive, ObjectType, ObjectTypeOptions } from '@nestjs/graphql';
+import { Directive, ObjectType, ObjectTypeOptions } from '@mirco312312/nest-fgql';
 import { applyDecorators } from '@nestjs/common';
 
 interface ExtendedObjectTypeOptions extends ObjectTypeOptions {

@@ -5,7 +5,7 @@ import {
   InternalServerErrorException,
   NestInterceptor,
 } from '@nestjs/common';
-import { GqlExecutionContext } from '@nestjs/graphql';
+import { GqlExecutionContext } from '@mirco312312/nest-fgql';
 import { ContextIdFactory, ModuleRef, APP_INTERCEPTOR } from '@nestjs/core';
 import { REQUEST_CONTEXT_ID } from '@nestjs/core/router/request/request-constants';
 import { Observable } from 'rxjs';

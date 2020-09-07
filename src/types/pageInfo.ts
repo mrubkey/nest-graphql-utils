@@ -1,4 +1,4 @@
-import { ObjectType, Field } from '@nestjs/graphql';
+import { ObjectType, Field } from '@mirco312312/nest-fgql';
 
 export interface IPageInfo {
   startCursor: string;
