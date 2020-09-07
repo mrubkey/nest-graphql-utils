@@ -35,9 +35,12 @@
     "bcryptjs": "^2.4.3",
     "class-validator": "^0.11.0",
     "dataloader": "^2.0.0",
-    "reflect-metadata": "^0.1.13"
+    "fastify": "^3.3.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-morph": "^8.1.0"
   },
   "peerDependencies": {
+    "@nestjs/platform-fastify": "^7.4.4",
     "@nestjs/common": "^7.0.7",
     "@nestjs/core": "^7.0.7",
     "@mirco312312/nest-fgql": "^1.0.10"
